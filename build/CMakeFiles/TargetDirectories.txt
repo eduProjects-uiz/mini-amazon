@@ -1,0 +1,3 @@
+/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles/store.dir
+/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles/edit_cache.dir
+/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles/rebuild_cache.dir

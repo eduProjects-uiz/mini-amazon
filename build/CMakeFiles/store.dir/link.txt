@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/store.dir/main.cpp.o CMakeFiles/store.dir/src/Product.cpp.o CMakeFiles/store.dir/src/KitchenEquipment.cpp.o CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o CMakeFiles/store.dir/src/Clothes.cpp.o CMakeFiles/store.dir/src/Others.cpp.o CMakeFiles/store.dir/src/Cart.cpp.o CMakeFiles/store.dir/src/Store.cpp.o -o store 
