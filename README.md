@@ -4,6 +4,7 @@
 
 ```
 ecommerce/
+├── CMakeLists.txt
 ├── main.cpp                      # Entry point
 ├── Makefile                      # Build automation
 ├── include/
