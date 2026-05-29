@@ -174,6 +174,10 @@ void Store::viewCart() const {
 }
 
 // ---- checkout --------------------------------------------------
+
+
+#include <fstream> // Make sure this is at the top of src/Store.cpp
+
 void Store::checkout() {
     if (cart.isEmpty()) {
         std::cout << "  Your cart is empty – nothing to checkout.\n";
@@ -189,19 +193,21 @@ void Store::checkout() {
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
     if (confirm == 'y' || confirm == 'Y') {
+        // Step A: Print the receipt on the console screen
         std::cout << "\n  --- Printing Receipt ---\n";
-        cart.printBill(std::cout);
+        cart.printBill(std::cout); 
         
-        // Formally registers the actual detailed bill text structure to file
+        // Step B: Open the file stream and write the SAME itemized receipt to the file
         std::ofstream billFile("registered_bill.txt");
         if (billFile.is_open()) {
-            cart.printBill(billFile);
+            cart.printBill(billFile); // Writes products, subtotal, 20% TVA, and Total directly into the file
             billFile.close();
             std::cout << "  [File System] Complete itemized bill successfully registered to 'registered_bill.txt'!\n";
         } else {
             std::cout << "  [Error] Failed to write registered_bill.txt file structure.\n";
         }
 
+        // Clear the cart after a successful order
         cart.clear();
         std::cout << "  Order placed! Your cart has been cleared.\n";
     } else {

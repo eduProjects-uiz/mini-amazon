@@ -59,14 +59,14 @@ void Cart::displayCart() const {
     std::cout << "  Subtotal: $" << subtotal << "\n\n";
 }
 
-// ---- printBill -------------------------------------------------
+// ---- printBill (Updated with 20% TVA) --------------------------
 void Cart::printBill(std::ostream& os) const {
     if (items.empty()) {
         os << "  Nothing to bill – your cart is empty.\n";
         return;
     }
 
-    // Timestamp
+    // Timestamp generation
     std::time_t now = std::time(nullptr);
     char timeBuf[32];
     std::strftime(timeBuf, sizeof(timeBuf), "%Y-%m-%d  %H:%M:%S", std::localtime(&now));
@@ -94,15 +94,16 @@ void Cart::printBill(std::ostream& os) const {
            << "$" << lineTotal << "\n";
     }
 
-    const double TAX_RATE = 0.08;   // 8 % tax
-    double tax   = subtotal * TAX_RATE;
-    double total = subtotal + tax;
+    // --- TVA 20% Calculation ---
+    const double TVA_RATE = 0.20;   // Changed from 0.08 to 0.20 (20%)
+    double tvaAmount = subtotal * TVA_RATE;
+    double total     = subtotal + tvaAmount;
 
     os << "  " << std::string(56, '-') << "\n";
-    os << "  Subtotal : $" << std::setw(10) << subtotal << "\n";
-    os << "  Tax (8%) : $" << std::setw(10) << tax     << "\n";
+    os << "  Subtotal  : $" << std::setw(10) << std::fixed << std::setprecision(2) << subtotal << "\n";
+    os << "  TVA (20%) : $" << std::setw(10) << tvaAmount << "\n"; // Labeled explicitly as TVA
     os << "  " << std::string(56, '-') << "\n";
-    os << "  TOTAL    : $" << std::setw(10) << total   << "\n";
+    os << "  TOTAL     : $" << std::setw(10) << total   << "\n";
     os << "  " << LINE << "\n";
     os << "       Thank you for shopping with us!\n";
     os << "  " << LINE << "\n\n";
