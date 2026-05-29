@@ -117,10 +117,11 @@ Pour une expérience visuelle optimale, il est vivement conseillé d'exécuter l
 ---
 
 
-**Copyright © 2026**
+
 
 Project realized by **MONCIF ZOUHAIR** - **ISRISS KABEL** - **BRAHIM	AIT OUBRAIM** - **SABIR	AIT BADDI** .
-</>  Faculté Polydisciplinaire de Taroudant. ([uiz.ac.ma][1])
+
+© 2026 Faculté Polydisciplinaire de Taroudant
 
 [1]: https://www.uiz.ac.ma/faculte-polydisciplinaire-taroudant?utm_source=chatgpt.com "Faculté Polydisciplinaire - Taroudant | Université Ibn Zohr"
 
