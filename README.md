@@ -1,33 +1,5 @@
 
 
-```text
-File generated successfully.
-
-```text
-ecommerce/
-├── CMakeLists.txt              # Configuration universelle de build multiplateforme
-├── main.cpp                    # Point d'entrée du programme (Boucle principale)
-├── include/                    # Dossier regroupant les fichiers d'en-tête (.h)
-│   ├── Product.h               # Classe de base abstraite d'un produit
-│   ├── KitchenEquipment.h      # Sous-classe pour la catégorie Cuisine
-│   ├── InformaticsEquipment.h  # Sous-classe pour la catégorie Informatique
-│   ├── Clothes.h               # Sous-classe pour la catégorie Vêtements
-│   ├── Others.h                # Sous-classe pour la catégorie Articles Divers
-│   ├── Cart.h                  # Gestion de la structure du Panier d'achat
-│   └── Store.h                 # Contrôleur central de l'interface et du catalogue
-└── src/                        # Dossier regroupant les implémentations (.cpp)
-    ├── Product.cpp
-    ├── KitchenEquipment.cpp
-    ├── InformaticsEquipment.cpp
-    ├── Clothes.cpp
-    ├── Others.cpp
-    ├── Cart.cpp
-    └── Store.cpp
-
-```
-
----
-
 ## 🛠️ Prérequis Système
 
 Avant de procéder à la compilation, assurez-vous que les outils suivants sont installés sur votre machine :
@@ -133,16 +105,9 @@ Lorsqu'un utilisateur sélectionne l'option **5. Checkout & Register Bill**, le 
 
 ---
 
-## 💡 Conseils d'utilisation sous Windows
-
-L'application utilise l'encodage standard UTF-8 pour afficher des icônes et émojis expressifs (🛒, 💻, 👕, 🍳). Les anciennes versions de l'invite de commandes Windows (`cmd.exe`) affichent parfois ces caractères sous forme de rectangles ou de points d'interrogation.
-Pour une expérience visuelle optimale, il est vivement conseillé d'exécuter l'application au sein de la nouvelle application **Windows Terminal** ou de **PowerShell**.
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-f.write(readme_content)
-
-print("File generated successfully.")
+💡 Conseils d'utilisation sous Windows
+L'application utilise l'encodage standard UTF-8 pour afficher des icônes et émojis expressifs (🛒, 💻, 👕, 🍳). Les anciennes versions de l'invite de commandes Windows (cmd.exe) affichent parfois ces caractères sous forme de rectangles ou de points d'interrogation.
+Pour une expérience visuelle optimale, il est vivement conseillé d'exécuter l'application au sein de la nouvelle application Windows Terminal ou de PowerShell.
 
 
 ---
@@ -153,5 +118,3 @@ print("File generated successfully.")
 
 
 
-
-```
