@@ -119,7 +119,7 @@ Pour une expérience visuelle optimale, il est vivement conseillé d'exécuter l
 
 
 
-Project realized by **MONCIF ZOUHAIR** - **ISRISS KABEL** - **BRAHIM	AIT OUBRAIM** - **SABIR	AIT BADDI** .
+Project GROUP  **MONCIF ZOUHAIR** - **ISRISS KABEL** - **BRAHIM	AIT OUBRAIM** - **SABIR	AIT BADDI** .
 
 © 2026 Faculté Polydisciplinaire de Taroudant ([uiz.ac.ma][1])
 
