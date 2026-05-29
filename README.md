@@ -116,5 +116,18 @@ Pour une expérience visuelle optimale, il est vivement conseillé d'exécuter l
 
 ---
 
+© 2026
+Faculté Polydisciplinaire de Taroudant
+Group: Moncif Zouhair – Idriss Kabel
+
+Or a cleaner academic version:
+
+**Copyright © 2026**
+Project realized by **Moncif Zouhair** and **Idriss Kabel**
+at Faculté Polydisciplinaire de Taroudant. ([uiz.ac.ma][1])
+
+[1]: https://www.uiz.ac.ma/faculte-polydisciplinaire-taroudant?utm_source=chatgpt.com "Faculté Polydisciplinaire - Taroudant | Université Ibn Zohr"
+
+
 
 
