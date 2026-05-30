@@ -123,7 +123,7 @@ Project GROUP  **MONCIF ZOUHAIR** - **IDRISS KABEL** - **BRAHIM	AIT OUBRAIM** - 
 
 © 2026 Faculté Polydisciplinaire de Taroudant ([uiz.ac.ma][1])
 
-[1]: https://www.uiz.ac.ma/faculte-polydisciplinaire-taroudant?utm_source=chatgpt.com "Faculté Polydisciplinaire - Taroudant | Université Ibn Zohr"
+[1]: https://www.uiz.ac.ma/faculte-polydisciplinaire-taroudant?utm "Faculté Polydisciplinaire - Taroudant | Université Ibn Zohr"
 
 
 
