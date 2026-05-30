@@ -1,8 +1,7 @@
 CMakeFiles/store.dir/main.cpp.o: \
- /home/moncifzouhair/Desktop/ecommerce/main.cpp \
- /usr/include/stdc-predef.h \
- /home/moncifzouhair/Desktop/ecommerce/include/Store.h \
- /home/moncifzouhair/Desktop/ecommerce/include/Product.h \
+ /home/hack_dude/Desktop/mini-amazon/main.cpp /usr/include/stdc-predef.h \
+ /home/hack_dude/Desktop/mini-amazon/include/Store.h \
+ /home/hack_dude/Desktop/mini-amazon/include/Product.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -117,7 +116,7 @@ CMakeFiles/store.dir/main.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/moncifzouhair/Desktop/ecommerce/include/Cart.h \
+ /home/hack_dude/Desktop/mini-amazon/include/Cart.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \

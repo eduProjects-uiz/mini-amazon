@@ -1,3 +1,3 @@
-/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles/store.dir
-/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles/edit_cache.dir
-/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles/rebuild_cache.dir
+/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles/store.dir
+/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles/edit_cache.dir
+/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles/rebuild_cache.dir

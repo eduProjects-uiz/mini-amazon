@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/moncifzouhair/Desktop/ecommerce/include
+CXX_INCLUDES = -I/home/hack_dude/Desktop/mini-amazon/include
 
 CXX_FLAGS = -std=c++17 -Wall -Wextra
 

@@ -1,8 +1,8 @@
 CMakeFiles/store.dir/src/KitchenEquipment.cpp.o: \
- /home/moncifzouhair/Desktop/ecommerce/src/KitchenEquipment.cpp \
+ /home/hack_dude/Desktop/mini-amazon/src/KitchenEquipment.cpp \
  /usr/include/stdc-predef.h \
- /home/moncifzouhair/Desktop/ecommerce/include/KitchenEquipment.h \
- /home/moncifzouhair/Desktop/ecommerce/include/Product.h \
+ /home/hack_dude/Desktop/mini-amazon/include/KitchenEquipment.h \
+ /home/hack_dude/Desktop/mini-amazon/include/Product.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -1,8 +1,8 @@
 CMakeFiles/store.dir/src/Others.cpp.o: \
- /home/moncifzouhair/Desktop/ecommerce/src/Others.cpp \
+ /home/hack_dude/Desktop/mini-amazon/src/Others.cpp \
  /usr/include/stdc-predef.h \
- /home/moncifzouhair/Desktop/ecommerce/include/Others.h \
- /home/moncifzouhair/Desktop/ecommerce/include/Product.h \
+ /home/hack_dude/Desktop/mini-amazon/include/Others.h \
+ /home/hack_dude/Desktop/mini-amazon/include/Product.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

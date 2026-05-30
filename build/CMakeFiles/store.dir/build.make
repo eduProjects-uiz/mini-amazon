@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moncifzouhair/Desktop/ecommerce
+CMAKE_SOURCE_DIR = /home/hack_dude/Desktop/mini-amazon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moncifzouhair/Desktop/ecommerce/build
+CMAKE_BINARY_DIR = /home/hack_dude/Desktop/mini-amazon/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/store.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/store.dir/progress.make
 include CMakeFiles/store.dir/flags.make
 
 CMakeFiles/store.dir/main.cpp.o: CMakeFiles/store.dir/flags.make
-CMakeFiles/store.dir/main.cpp.o: /home/moncifzouhair/Desktop/ecommerce/main.cpp
+CMakeFiles/store.dir/main.cpp.o: /home/hack_dude/Desktop/mini-amazon/main.cpp
 CMakeFiles/store.dir/main.cpp.o: CMakeFiles/store.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/store.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/main.cpp.o -MF CMakeFiles/store.dir/main.cpp.o.d -o CMakeFiles/store.dir/main.cpp.o -c /home/moncifzouhair/Desktop/ecommerce/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/store.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/main.cpp.o -MF CMakeFiles/store.dir/main.cpp.o.d -o CMakeFiles/store.dir/main.cpp.o -c /home/hack_dude/Desktop/mini-amazon/main.cpp
 
 CMakeFiles/store.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/store.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moncifzouhair/Desktop/ecommerce/main.cpp > CMakeFiles/store.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hack_dude/Desktop/mini-amazon/main.cpp > CMakeFiles/store.dir/main.cpp.i
 
 CMakeFiles/store.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/store.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moncifzouhair/Desktop/ecommerce/main.cpp -o CMakeFiles/store.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hack_dude/Desktop/mini-amazon/main.cpp -o CMakeFiles/store.dir/main.cpp.s
 
 CMakeFiles/store.dir/src/Product.cpp.o: CMakeFiles/store.dir/flags.make
-CMakeFiles/store.dir/src/Product.cpp.o: /home/moncifzouhair/Desktop/ecommerce/src/Product.cpp
+CMakeFiles/store.dir/src/Product.cpp.o: /home/hack_dude/Desktop/mini-amazon/src/Product.cpp
 CMakeFiles/store.dir/src/Product.cpp.o: CMakeFiles/store.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/store.dir/src/Product.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Product.cpp.o -MF CMakeFiles/store.dir/src/Product.cpp.o.d -o CMakeFiles/store.dir/src/Product.cpp.o -c /home/moncifzouhair/Desktop/ecommerce/src/Product.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/store.dir/src/Product.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Product.cpp.o -MF CMakeFiles/store.dir/src/Product.cpp.o.d -o CMakeFiles/store.dir/src/Product.cpp.o -c /home/hack_dude/Desktop/mini-amazon/src/Product.cpp
 
 CMakeFiles/store.dir/src/Product.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/store.dir/src/Product.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moncifzouhair/Desktop/ecommerce/src/Product.cpp > CMakeFiles/store.dir/src/Product.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hack_dude/Desktop/mini-amazon/src/Product.cpp > CMakeFiles/store.dir/src/Product.cpp.i
 
 CMakeFiles/store.dir/src/Product.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/store.dir/src/Product.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moncifzouhair/Desktop/ecommerce/src/Product.cpp -o CMakeFiles/store.dir/src/Product.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hack_dude/Desktop/mini-amazon/src/Product.cpp -o CMakeFiles/store.dir/src/Product.cpp.s
 
 CMakeFiles/store.dir/src/KitchenEquipment.cpp.o: CMakeFiles/store.dir/flags.make
-CMakeFiles/store.dir/src/KitchenEquipment.cpp.o: /home/moncifzouhair/Desktop/ecommerce/src/KitchenEquipment.cpp
+CMakeFiles/store.dir/src/KitchenEquipment.cpp.o: /home/hack_dude/Desktop/mini-amazon/src/KitchenEquipment.cpp
 CMakeFiles/store.dir/src/KitchenEquipment.cpp.o: CMakeFiles/store.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/store.dir/src/KitchenEquipment.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/KitchenEquipment.cpp.o -MF CMakeFiles/store.dir/src/KitchenEquipment.cpp.o.d -o CMakeFiles/store.dir/src/KitchenEquipment.cpp.o -c /home/moncifzouhair/Desktop/ecommerce/src/KitchenEquipment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/store.dir/src/KitchenEquipment.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/KitchenEquipment.cpp.o -MF CMakeFiles/store.dir/src/KitchenEquipment.cpp.o.d -o CMakeFiles/store.dir/src/KitchenEquipment.cpp.o -c /home/hack_dude/Desktop/mini-amazon/src/KitchenEquipment.cpp
 
 CMakeFiles/store.dir/src/KitchenEquipment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/store.dir/src/KitchenEquipment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moncifzouhair/Desktop/ecommerce/src/KitchenEquipment.cpp > CMakeFiles/store.dir/src/KitchenEquipment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hack_dude/Desktop/mini-amazon/src/KitchenEquipment.cpp > CMakeFiles/store.dir/src/KitchenEquipment.cpp.i
 
 CMakeFiles/store.dir/src/KitchenEquipment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/store.dir/src/KitchenEquipment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moncifzouhair/Desktop/ecommerce/src/KitchenEquipment.cpp -o CMakeFiles/store.dir/src/KitchenEquipment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hack_dude/Desktop/mini-amazon/src/KitchenEquipment.cpp -o CMakeFiles/store.dir/src/KitchenEquipment.cpp.s
 
 CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o: CMakeFiles/store.dir/flags.make
-CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o: /home/moncifzouhair/Desktop/ecommerce/src/InformaticsEquipment.cpp
+CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o: /home/hack_dude/Desktop/mini-amazon/src/InformaticsEquipment.cpp
 CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o: CMakeFiles/store.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o -MF CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o.d -o CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o -c /home/moncifzouhair/Desktop/ecommerce/src/InformaticsEquipment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o -MF CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o.d -o CMakeFiles/store.dir/src/InformaticsEquipment.cpp.o -c /home/hack_dude/Desktop/mini-amazon/src/InformaticsEquipment.cpp
 
 CMakeFiles/store.dir/src/InformaticsEquipment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/store.dir/src/InformaticsEquipment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moncifzouhair/Desktop/ecommerce/src/InformaticsEquipment.cpp > CMakeFiles/store.dir/src/InformaticsEquipment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hack_dude/Desktop/mini-amazon/src/InformaticsEquipment.cpp > CMakeFiles/store.dir/src/InformaticsEquipment.cpp.i
 
 CMakeFiles/store.dir/src/InformaticsEquipment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/store.dir/src/InformaticsEquipment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moncifzouhair/Desktop/ecommerce/src/InformaticsEquipment.cpp -o CMakeFiles/store.dir/src/InformaticsEquipment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hack_dude/Desktop/mini-amazon/src/InformaticsEquipment.cpp -o CMakeFiles/store.dir/src/InformaticsEquipment.cpp.s
 
 CMakeFiles/store.dir/src/Clothes.cpp.o: CMakeFiles/store.dir/flags.make
-CMakeFiles/store.dir/src/Clothes.cpp.o: /home/moncifzouhair/Desktop/ecommerce/src/Clothes.cpp
+CMakeFiles/store.dir/src/Clothes.cpp.o: /home/hack_dude/Desktop/mini-amazon/src/Clothes.cpp
 CMakeFiles/store.dir/src/Clothes.cpp.o: CMakeFiles/store.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/store.dir/src/Clothes.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Clothes.cpp.o -MF CMakeFiles/store.dir/src/Clothes.cpp.o.d -o CMakeFiles/store.dir/src/Clothes.cpp.o -c /home/moncifzouhair/Desktop/ecommerce/src/Clothes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/store.dir/src/Clothes.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Clothes.cpp.o -MF CMakeFiles/store.dir/src/Clothes.cpp.o.d -o CMakeFiles/store.dir/src/Clothes.cpp.o -c /home/hack_dude/Desktop/mini-amazon/src/Clothes.cpp
 
 CMakeFiles/store.dir/src/Clothes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/store.dir/src/Clothes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moncifzouhair/Desktop/ecommerce/src/Clothes.cpp > CMakeFiles/store.dir/src/Clothes.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hack_dude/Desktop/mini-amazon/src/Clothes.cpp > CMakeFiles/store.dir/src/Clothes.cpp.i
 
 CMakeFiles/store.dir/src/Clothes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/store.dir/src/Clothes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moncifzouhair/Desktop/ecommerce/src/Clothes.cpp -o CMakeFiles/store.dir/src/Clothes.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hack_dude/Desktop/mini-amazon/src/Clothes.cpp -o CMakeFiles/store.dir/src/Clothes.cpp.s
 
 CMakeFiles/store.dir/src/Others.cpp.o: CMakeFiles/store.dir/flags.make
-CMakeFiles/store.dir/src/Others.cpp.o: /home/moncifzouhair/Desktop/ecommerce/src/Others.cpp
+CMakeFiles/store.dir/src/Others.cpp.o: /home/hack_dude/Desktop/mini-amazon/src/Others.cpp
 CMakeFiles/store.dir/src/Others.cpp.o: CMakeFiles/store.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/store.dir/src/Others.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Others.cpp.o -MF CMakeFiles/store.dir/src/Others.cpp.o.d -o CMakeFiles/store.dir/src/Others.cpp.o -c /home/moncifzouhair/Desktop/ecommerce/src/Others.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/store.dir/src/Others.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Others.cpp.o -MF CMakeFiles/store.dir/src/Others.cpp.o.d -o CMakeFiles/store.dir/src/Others.cpp.o -c /home/hack_dude/Desktop/mini-amazon/src/Others.cpp
 
 CMakeFiles/store.dir/src/Others.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/store.dir/src/Others.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moncifzouhair/Desktop/ecommerce/src/Others.cpp > CMakeFiles/store.dir/src/Others.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hack_dude/Desktop/mini-amazon/src/Others.cpp > CMakeFiles/store.dir/src/Others.cpp.i
 
 CMakeFiles/store.dir/src/Others.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/store.dir/src/Others.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moncifzouhair/Desktop/ecommerce/src/Others.cpp -o CMakeFiles/store.dir/src/Others.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hack_dude/Desktop/mini-amazon/src/Others.cpp -o CMakeFiles/store.dir/src/Others.cpp.s
 
 CMakeFiles/store.dir/src/Cart.cpp.o: CMakeFiles/store.dir/flags.make
-CMakeFiles/store.dir/src/Cart.cpp.o: /home/moncifzouhair/Desktop/ecommerce/src/Cart.cpp
+CMakeFiles/store.dir/src/Cart.cpp.o: /home/hack_dude/Desktop/mini-amazon/src/Cart.cpp
 CMakeFiles/store.dir/src/Cart.cpp.o: CMakeFiles/store.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/store.dir/src/Cart.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Cart.cpp.o -MF CMakeFiles/store.dir/src/Cart.cpp.o.d -o CMakeFiles/store.dir/src/Cart.cpp.o -c /home/moncifzouhair/Desktop/ecommerce/src/Cart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/store.dir/src/Cart.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Cart.cpp.o -MF CMakeFiles/store.dir/src/Cart.cpp.o.d -o CMakeFiles/store.dir/src/Cart.cpp.o -c /home/hack_dude/Desktop/mini-amazon/src/Cart.cpp
 
 CMakeFiles/store.dir/src/Cart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/store.dir/src/Cart.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moncifzouhair/Desktop/ecommerce/src/Cart.cpp > CMakeFiles/store.dir/src/Cart.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hack_dude/Desktop/mini-amazon/src/Cart.cpp > CMakeFiles/store.dir/src/Cart.cpp.i
 
 CMakeFiles/store.dir/src/Cart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/store.dir/src/Cart.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moncifzouhair/Desktop/ecommerce/src/Cart.cpp -o CMakeFiles/store.dir/src/Cart.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hack_dude/Desktop/mini-amazon/src/Cart.cpp -o CMakeFiles/store.dir/src/Cart.cpp.s
 
 CMakeFiles/store.dir/src/Store.cpp.o: CMakeFiles/store.dir/flags.make
-CMakeFiles/store.dir/src/Store.cpp.o: /home/moncifzouhair/Desktop/ecommerce/src/Store.cpp
+CMakeFiles/store.dir/src/Store.cpp.o: /home/hack_dude/Desktop/mini-amazon/src/Store.cpp
 CMakeFiles/store.dir/src/Store.cpp.o: CMakeFiles/store.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/store.dir/src/Store.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Store.cpp.o -MF CMakeFiles/store.dir/src/Store.cpp.o.d -o CMakeFiles/store.dir/src/Store.cpp.o -c /home/moncifzouhair/Desktop/ecommerce/src/Store.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/store.dir/src/Store.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/store.dir/src/Store.cpp.o -MF CMakeFiles/store.dir/src/Store.cpp.o.d -o CMakeFiles/store.dir/src/Store.cpp.o -c /home/hack_dude/Desktop/mini-amazon/src/Store.cpp
 
 CMakeFiles/store.dir/src/Store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/store.dir/src/Store.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moncifzouhair/Desktop/ecommerce/src/Store.cpp > CMakeFiles/store.dir/src/Store.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hack_dude/Desktop/mini-amazon/src/Store.cpp > CMakeFiles/store.dir/src/Store.cpp.i
 
 CMakeFiles/store.dir/src/Store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/store.dir/src/Store.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moncifzouhair/Desktop/ecommerce/src/Store.cpp -o CMakeFiles/store.dir/src/Store.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hack_dude/Desktop/mini-amazon/src/Store.cpp -o CMakeFiles/store.dir/src/Store.cpp.s
 
 # Object files for target store
 store_OBJECTS = \
@@ -205,7 +205,7 @@ store: CMakeFiles/store.dir/src/Cart.cpp.o
 store: CMakeFiles/store.dir/src/Store.cpp.o
 store: CMakeFiles/store.dir/build.make
 store: CMakeFiles/store.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable store"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hack_dude/Desktop/mini-amazon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable store"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/store.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/store.dir/clean:
 .PHONY : CMakeFiles/store.dir/clean
 
 CMakeFiles/store.dir/depend:
-	cd /home/moncifzouhair/Desktop/ecommerce/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moncifzouhair/Desktop/ecommerce /home/moncifzouhair/Desktop/ecommerce /home/moncifzouhair/Desktop/ecommerce/build /home/moncifzouhair/Desktop/ecommerce/build /home/moncifzouhair/Desktop/ecommerce/build/CMakeFiles/store.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hack_dude/Desktop/mini-amazon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hack_dude/Desktop/mini-amazon /home/hack_dude/Desktop/mini-amazon /home/hack_dude/Desktop/mini-amazon/build /home/hack_dude/Desktop/mini-amazon/build /home/hack_dude/Desktop/mini-amazon/build/CMakeFiles/store.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/store.dir/depend
 
