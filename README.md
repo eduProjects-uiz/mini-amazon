@@ -8,7 +8,10 @@ Avant de procéder à la compilation, assurez-vous que les outils suivants sont 
 * **CMake** : Version **3.15** ou supérieure.
 
 ---
+## Diagram UML:
+![Mini Amazon UML Diagram](imgs/store_uml.svg)
 
+---
 ## 📦 Méthodes d'Installation et Compilation
 
 ### 🐧 1. Procédure sur Linux (Ubuntu / Debian / Deepin / Mint)
