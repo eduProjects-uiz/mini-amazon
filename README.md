@@ -11,7 +11,7 @@ Avant de procéder à la compilation, assurez-vous que les outils suivants sont 
 ## Diagram UML:
 
 classDiagram
-    %% Relationships
+    %% Relationships    
     Product <|-- Clothes    
     Product <|-- InformaticsEquipment   
     Product <|-- KitchenEquipment   
