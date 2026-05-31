@@ -12,10 +12,10 @@ Avant de procéder à la compilation, assurez-vous que les outils suivants sont 
 
 classDiagram
     %% Relationships
-    Product <|-- Clothes
-    Product <|-- InformaticsEquipment
-    Product <|-- KitchenEquipment
-    Product <|-- Others
+    Product <|-- Clothes    
+    Product <|-- InformaticsEquipment   
+    Product <|-- KitchenEquipment   
+    Product <|-- Others   
 
     CartItem "1" o-- "1" Product : points to via shared_ptr
     Cart "1" *-- "*" CartItem : composed of
