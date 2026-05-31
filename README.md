@@ -9,97 +9,88 @@ Avant de procéder à la compilation, assurez-vous que les outils suivants sont 
 
 ---
 ## Diagram UML:
-```mermaid
-class Product {
-    # id : int
-    # name : string
-    # price : double
-    # description : string
-    # category : string
-    --
-    + Product(id: int, name: string, price: double, desc: string, cat: string)
-    + ~Product()
-    + getId() : int
-    + getName() : string
-    + getPrice() : double
-    + getDescription() : string
-    + getCategory() : string
-    + virtual display() : void
-}
+classDiagram
+    %% Relationships
+    Product <|-- Clothes
+    Product <|-- InformaticsEquipment
+    Product <|-- KitchenEquipment
+    Product <|-- Others
 
-class Clothes {
-    --
-    + Clothes(id: int, name: string, price: double, desc: string)
-    + display() : void
-    + {static} getCatalog() : vector<Clothes>
-}
+    CartItem "1" o-- "1" Product : points to via shared_ptr
+    Cart "1" *-- "*" CartItem : composed of
+    Store "1" *-- "1" Cart : contains
+    Store "1" o-- "*" Product : manages via shared_ptr catalog
 
-class InformaticsEquipment {
-    --
-    + InformaticsEquipment(id: int, name: string, price: double, desc: string)
-    + display() : void
-    + {static} getCatalog() : vector<InformaticsEquipment>
-}
+    class Product {
+        #int id
+        #string name
+        #double price
+        #string description
+        #string category
+        +Product(int id, string name, double price, string desc, string cat)
+        +~Product()
+        +getId() int
+        +getName() string
+        +getPrice() double
+        +getDescription() string
+        +getCategory() string
+        +display() void*
+    }
 
-class KitchenEquipment {
-    --
-    + KitchenEquipment(id: int, name: string, price: double, desc: string)
-    + display() : void
-    + {static} getCatalog() : vector<KitchenEquipment>
-}
+    class Clothes {
+        +Clothes(int id, string name, double price, string desc)
+        +display() void*
+        +getCatalog() vector~Clothes~$
+    }
 
-class Others {
-    --
-    + Others(id: int, name: string, price: double, desc: string)
-    + display() : void
-    + {static} getCatalog() : vector<Others>
-}
+    class InformaticsEquipment {
+        +InformaticsEquipment(int id, string name, double price, string desc)
+        +display() void*
+        +getCatalog() vector~InformaticsEquipment~$
+    }
 
-struct CartItem <<struct>> {
-    + product : shared_ptr<Product>
-    + quantity : int
-}
+    class KitchenEquipment {
+        +KitchenEquipment(int id, string name, double price, string desc)
+        +display() void*
+        +getCatalog() vector~KitchenEquipment~$
+    }
 
-class Cart {
-    - items : vector<CartItem>
-    --
-    + addProduct(product: shared_ptr<Product>) : void
-    + removeProduct(productId: int) : bool
-    + displayCart() : void
-    + printBill(os: ostream) : void
-    + isEmpty() : bool
-    + clear() : void
-}
+    class Others {
+        +Others(int id, string name, double price, string desc)
+        +display() void*
+        +getCatalog() vector~Others~$
+    }
 
-class Store {
-    - catalog : vector<shared_ptr<Product>>
-    - cart : Cart
-    --
-    - loadCatalog() : void
-    - findById(id: int) : shared_ptr<Product>
-    - showMainMenu() : void
-    --
-    + Store()
-    + displayAll() : void
-    + displayByCategory() : void
-    + searchByName() : void
-    + viewCart() : void
-    + checkout() : void
-    + run() : void
-}
+    class CartItem {
+        <<struct>>
+        +shared_ptr~Product~ product
+        +int quantity
+    }
 
-' Relationships
-Product <|-- Clothes
-Product <|-- InformaticsEquipment
-Product <|-- KitchenEquipment
-Product <|-- Others
+    class Cart {
+        -vector~CartItem~ items
+        +addProduct(shared_ptr~Product~ product) void
+        +removeProduct(int productId) bool
+        +displayCart() void
+        +printBill(ostream& os) void
+        +isEmpty() bool
+        +clear() void
+    }
 
-CartItem "1" o-- "1" Product : points to via shared_ptr
-Cart "1" *-- "*" CartItem : composed of
-Store "1" *-- "1" Cart : contains
-Store "1" o-- "*" Product : manages via shared_ptr catalog
-
-
+    class Store {
+        -vector~shared_ptr~Product~~ catalog
+        -Cart cart
+        -loadCatalog() void
+        -findById(int id) shared_ptr~Product~
+        -showMainMenu() void
+        +Store()
+        +displayAll() void
+        +displayByCategory() void
+        +searchByName() void
+        +viewCart() void
+        +checkout() void
+        +run() void
+    }
 
 ---
 ## 📦 Méthodes d'Installation et Compilation
