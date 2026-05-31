@@ -9,7 +9,97 @@ Avant de procéder à la compilation, assurez-vous que les outils suivants sont 
 
 ---
 ## Diagram UML:
-![Mini Amazon UML Diagram](imgs/store_uml.svg)
+```mermaid
+class Product {
+    # id : int
+    # name : string
+    # price : double
+    # description : string
+    # category : string
+    --
+    + Product(id: int, name: string, price: double, desc: string, cat: string)
+    + ~Product()
+    + getId() : int
+    + getName() : string
+    + getPrice() : double
+    + getDescription() : string
+    + getCategory() : string
+    + virtual display() : void
+}
+
+class Clothes {
+    --
+    + Clothes(id: int, name: string, price: double, desc: string)
+    + display() : void
+    + {static} getCatalog() : vector<Clothes>
+}
+
+class InformaticsEquipment {
+    --
+    + InformaticsEquipment(id: int, name: string, price: double, desc: string)
+    + display() : void
+    + {static} getCatalog() : vector<InformaticsEquipment>
+}
+
+class KitchenEquipment {
+    --
+    + KitchenEquipment(id: int, name: string, price: double, desc: string)
+    + display() : void
+    + {static} getCatalog() : vector<KitchenEquipment>
+}
+
+class Others {
+    --
+    + Others(id: int, name: string, price: double, desc: string)
+    + display() : void
+    + {static} getCatalog() : vector<Others>
+}
+
+struct CartItem <<struct>> {
+    + product : shared_ptr<Product>
+    + quantity : int
+}
+
+class Cart {
+    - items : vector<CartItem>
+    --
+    + addProduct(product: shared_ptr<Product>) : void
+    + removeProduct(productId: int) : bool
+    + displayCart() : void
+    + printBill(os: ostream) : void
+    + isEmpty() : bool
+    + clear() : void
+}
+
+class Store {
+    - catalog : vector<shared_ptr<Product>>
+    - cart : Cart
+    --
+    - loadCatalog() : void
+    - findById(id: int) : shared_ptr<Product>
+    - showMainMenu() : void
+    --
+    + Store()
+    + displayAll() : void
+    + displayByCategory() : void
+    + searchByName() : void
+    + viewCart() : void
+    + checkout() : void
+    + run() : void
+}
+
+' Relationships
+Product <|-- Clothes
+Product <|-- InformaticsEquipment
+Product <|-- KitchenEquipment
+Product <|-- Others
+
+CartItem "1" o-- "1" Product : points to via shared_ptr
+Cart "1" *-- "*" CartItem : composed of
+Store "1" *-- "1" Cart : contains
+Store "1" o-- "*" Product : manages via shared_ptr catalog
+
+
 
 ---
 ## 📦 Méthodes d'Installation et Compilation
